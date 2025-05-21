@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+/* ============ FOOTER ============ */
+footer {
+  background-color: #ffe8c9;
+  padding: 40px 30px 20px;
+  margin-top: 60px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+  min-width: 180px;
+}
+
+.footer-section h4 {
+  color: #6b2b06;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.footer-section p,
+.footer-section a {
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  object-fit: contain;
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+}
+
+/* ============ RESPONSIVE FOOTER ============ */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .footer-section {
+    width: 100%;
+  }
+
+  .footer-bottom {
+    font-size: 11px;
+    text-align: left;
+  }
+}
