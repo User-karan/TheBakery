@@ -21,13 +21,13 @@
         <!-- Left box: Contact Info -->
         <div class="contact-info-box">
           <h3>📍 Visit Us</h3>
-          <p>123 Sprinkle Street<br>Donutville, DC 45678</p>
+          <p>Street no 4<br>Lakeside Pokhara</p>
 
           <h3>📞 Call</h3>
-          <p>+1 (555) 123-4567</p>
+          <p>+977 9827120743</p>
 
           <h3>📧 Email</h3>
-          <p>hello@idoughnutcare.com</p>
+          <p>doughnutI@gmail.com</p>
         </div>
 
         <!-- Right box: Contact Form -->
@@ -39,11 +39,6 @@
             <button type="submit">Send Message</button>
           </form>
         </div>
-      </div>
-
-      <!-- Map Section -->
-      <div class="map-box">
-        <img src="https://via.placeholder.com/1000x300?text=Map+Location+Here" alt="Map showing bakery location">
       </div>
     </section>
   </main>
