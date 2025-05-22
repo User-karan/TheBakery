@@ -51,16 +51,6 @@
             <p>Our croissants are buttery, golden, and baked fresh every morning. Made using traditional techniques, each croissant has the perfect flaky texture you crave.</p>
         </div>
     </article>
-
-    <article class="blog-entry">
-        <div class="blog-image">
-            <img src="../resources/waffle.jpeg" alt="Delicious Waffles">
-        </div>
-        <div class="blog-content">
-            <h2>Waffles</h2>
-            <p>Crispy on the outside, fluffy on the inside, our waffles are a must-try. Served hot off the griddle, they come with a variety of toppings for ultimate indulgence.</p>
-        </div>
-    </article>
 </main>
 
 <%@ include file="footer.jsp" %>
